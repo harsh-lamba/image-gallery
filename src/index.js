@@ -1,3 +1,3 @@
-module.export = function() {
-    console.log('asd');
-}
+import './index.scss';
+
+console.log('React application');
