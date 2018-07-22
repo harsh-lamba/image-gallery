@@ -1,0 +1,28 @@
+{
+  "name": "image-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/index.js --output ./dist/app.js --watch",
+    "build": "webpack --mode production ./src/index.js --output ./dist/app.min.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harsh-lamba/image-gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harsh-lamba/image-gallery/issues"
+  },
+  "homepage": "https://github.com/harsh-lamba/image-gallery#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
